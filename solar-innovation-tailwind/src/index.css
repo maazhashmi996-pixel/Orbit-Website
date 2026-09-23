@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+  --color-brand: #86be40;
+  --color-brand-dark: #6da639;
+  --color-surface: #f7f6f6;
+  --color-surface-2: #f8f8f8;
+}
+
+body {
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: var(--color-brand);
+  border-radius: 9999px;
+}
+
+.filter-white {
+  filter: brightness(0) invert(1);
+}
